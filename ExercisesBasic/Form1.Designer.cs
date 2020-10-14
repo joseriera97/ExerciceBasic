@@ -52,6 +52,17 @@
             this.ex4OperacionTextBox = new System.Windows.Forms.TextBox();
             this.ex4ResetButton = new System.Windows.Forms.Button();
             this.ex4CalcularButton = new System.Windows.Forms.Button();
+            this.ex4bCalcularButton = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.ex4bOperacionTextBox = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.ex4bResultatTextBox = new System.Windows.Forms.TextBox();
+            this.ex4bOperant2TextBox = new System.Windows.Forms.TextBox();
+            this.ex4bOperant1TextBox = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.ex4bOperadorListBox = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // titleExercice1
@@ -269,11 +280,120 @@
             this.ex4CalcularButton.UseVisualStyleBackColor = true;
             this.ex4CalcularButton.Click += new System.EventHandler(this.ex4CalcularButton_Click);
             // 
+            // ex4bCalcularButton
+            // 
+            this.ex4bCalcularButton.Location = new System.Drawing.Point(117, 731);
+            this.ex4bCalcularButton.Name = "ex4bCalcularButton";
+            this.ex4bCalcularButton.Size = new System.Drawing.Size(134, 23);
+            this.ex4bCalcularButton.TabIndex = 33;
+            this.ex4bCalcularButton.Text = "Calcular";
+            this.ex4bCalcularButton.UseVisualStyleBackColor = true;
+            this.ex4bCalcularButton.Click += new System.EventHandler(this.ex4bCalcularButton_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(418, 734);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 32;
+            this.button2.Text = "Reset";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // ex4bOperacionTextBox
+            // 
+            this.ex4bOperacionTextBox.Location = new System.Drawing.Point(312, 734);
+            this.ex4bOperacionTextBox.Name = "ex4bOperacionTextBox";
+            this.ex4bOperacionTextBox.Size = new System.Drawing.Size(49, 20);
+            this.ex4bOperacionTextBox.TabIndex = 31;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(279, 718);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(122, 13);
+            this.label3.TabIndex = 30;
+            this.label3.Text = "Operacion seleccionada";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(253, 599);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(160, 13);
+            this.label4.TabIndex = 27;
+            this.label4.Text = "Selecione la operacion a realizar";
+            // 
+            // ex4bResultatTextBox
+            // 
+            this.ex4bResultatTextBox.Location = new System.Drawing.Point(418, 659);
+            this.ex4bResultatTextBox.Name = "ex4bResultatTextBox";
+            this.ex4bResultatTextBox.Size = new System.Drawing.Size(100, 20);
+            this.ex4bResultatTextBox.TabIndex = 26;
+            // 
+            // ex4bOperant2TextBox
+            // 
+            this.ex4bOperant2TextBox.Location = new System.Drawing.Point(117, 679);
+            this.ex4bOperant2TextBox.Name = "ex4bOperant2TextBox";
+            this.ex4bOperant2TextBox.Size = new System.Drawing.Size(100, 20);
+            this.ex4bOperant2TextBox.TabIndex = 25;
+            // 
+            // ex4bOperant1TextBox
+            // 
+            this.ex4bOperant1TextBox.Location = new System.Drawing.Point(117, 636);
+            this.ex4bOperant1TextBox.Name = "ex4bOperant1TextBox";
+            this.ex4bOperant1TextBox.Size = new System.Drawing.Size(100, 20);
+            this.ex4bOperant1TextBox.TabIndex = 24;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(324, 367);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(24, 24);
+            this.label5.TabIndex = 34;
+            this.label5.Text = "A";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(324, 562);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(23, 24);
+            this.label6.TabIndex = 35;
+            this.label6.Text = "B";
+            // 
+            // ex4bOperadorListBox
+            // 
+            this.ex4bOperadorListBox.FormattingEnabled = true;
+            this.ex4bOperadorListBox.Items.AddRange(new object[] {
+            "+",
+            "-"});
+            this.ex4bOperadorListBox.Location = new System.Drawing.Point(315, 636);
+            this.ex4bOperadorListBox.Name = "ex4bOperadorListBox";
+            this.ex4bOperadorListBox.Size = new System.Drawing.Size(46, 43);
+            this.ex4bOperadorListBox.TabIndex = 36;
+            this.ex4bOperadorListBox.SelectedIndexChanged += new System.EventHandler(this.ex4bOperadorListBox_SelectedIndexChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(737, 848);
+            this.Controls.Add(this.ex4bOperadorListBox);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.ex4bCalcularButton);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.ex4bOperacionTextBox);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.ex4bResultatTextBox);
+            this.Controls.Add(this.ex4bOperant2TextBox);
+            this.Controls.Add(this.ex4bOperant1TextBox);
             this.Controls.Add(this.ex4CalcularButton);
             this.Controls.Add(this.ex4ResetButton);
             this.Controls.Add(this.ex4OperacionTextBox);
@@ -331,6 +451,17 @@
         private System.Windows.Forms.TextBox ex4OperacionTextBox;
         private System.Windows.Forms.Button ex4ResetButton;
         private System.Windows.Forms.Button ex4CalcularButton;
+        private System.Windows.Forms.Button ex4bCalcularButton;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox ex4bOperacionTextBox;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox ex4bResultatTextBox;
+        private System.Windows.Forms.TextBox ex4bOperant2TextBox;
+        private System.Windows.Forms.TextBox ex4bOperant1TextBox;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ListBox ex4bOperadorListBox;
     }
 }
 
