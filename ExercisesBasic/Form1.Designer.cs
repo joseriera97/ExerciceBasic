@@ -63,6 +63,12 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.ex4bOperadorListBox = new System.Windows.Forms.ListBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.ex5MouseCheckBox = new System.Windows.Forms.CheckBox();
+            this.ex5CatCheckBox = new System.Windows.Forms.CheckBox();
+            this.ex5DogCheckBox = new System.Windows.Forms.CheckBox();
+            this.ex5ListAnimalesTextBox = new System.Windows.Forms.TextBox();
+            this.ex5OkButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // titleExercice1
@@ -119,7 +125,7 @@
             // operador1Label
             // 
             this.operador1Label.AutoSize = true;
-            this.operador1Label.Location = new System.Drawing.Point(198, 161);
+            this.operador1Label.Location = new System.Drawing.Point(188, 126);
             this.operador1Label.Name = "operador1Label";
             this.operador1Label.Size = new System.Drawing.Size(63, 13);
             this.operador1Label.TabIndex = 5;
@@ -128,7 +134,7 @@
             // operador2Label
             // 
             this.operador2Label.AutoSize = true;
-            this.operador2Label.Location = new System.Drawing.Point(198, 220);
+            this.operador2Label.Location = new System.Drawing.Point(188, 185);
             this.operador2Label.Name = "operador2Label";
             this.operador2Label.Size = new System.Drawing.Size(63, 13);
             this.operador2Label.TabIndex = 6;
@@ -137,7 +143,7 @@
             // resultLabel
             // 
             this.resultLabel.AutoSize = true;
-            this.resultLabel.Location = new System.Drawing.Point(211, 301);
+            this.resultLabel.Location = new System.Drawing.Point(201, 266);
             this.resultLabel.Name = "resultLabel";
             this.resultLabel.Size = new System.Drawing.Size(40, 13);
             this.resultLabel.TabIndex = 7;
@@ -145,7 +151,7 @@
             // 
             // sumButton
             // 
-            this.sumButton.Location = new System.Drawing.Point(214, 260);
+            this.sumButton.Location = new System.Drawing.Point(204, 225);
             this.sumButton.Name = "sumButton";
             this.sumButton.Size = new System.Drawing.Size(75, 23);
             this.sumButton.TabIndex = 8;
@@ -155,7 +161,7 @@
             // 
             // resetButton
             // 
-            this.resetButton.Location = new System.Drawing.Point(418, 260);
+            this.resetButton.Location = new System.Drawing.Point(408, 225);
             this.resetButton.Name = "resetButton";
             this.resetButton.Size = new System.Drawing.Size(75, 23);
             this.resetButton.TabIndex = 9;
@@ -165,21 +171,21 @@
             // 
             // operador1TextBox
             // 
-            this.operador1TextBox.Location = new System.Drawing.Point(301, 161);
+            this.operador1TextBox.Location = new System.Drawing.Point(291, 126);
             this.operador1TextBox.Name = "operador1TextBox";
             this.operador1TextBox.Size = new System.Drawing.Size(100, 20);
             this.operador1TextBox.TabIndex = 10;
             // 
             // operador2TextBox
             // 
-            this.operador2TextBox.Location = new System.Drawing.Point(301, 217);
+            this.operador2TextBox.Location = new System.Drawing.Point(291, 182);
             this.operador2TextBox.Name = "operador2TextBox";
             this.operador2TextBox.Size = new System.Drawing.Size(100, 20);
             this.operador2TextBox.TabIndex = 11;
             // 
             // resultTextBox
             // 
-            this.resultTextBox.Location = new System.Drawing.Point(301, 301);
+            this.resultTextBox.Location = new System.Drawing.Point(291, 266);
             this.resultTextBox.Name = "resultTextBox";
             this.resultTextBox.Size = new System.Drawing.Size(100, 20);
             this.resultTextBox.TabIndex = 12;
@@ -188,7 +194,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(22, 353);
+            this.label2.Location = new System.Drawing.Point(22, 296);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(110, 24);
             this.label2.TabIndex = 13;
@@ -196,21 +202,21 @@
             // 
             // ex4Operant1TextBox
             // 
-            this.ex4Operant1TextBox.Location = new System.Drawing.Point(117, 428);
+            this.ex4Operant1TextBox.Location = new System.Drawing.Point(123, 357);
             this.ex4Operant1TextBox.Name = "ex4Operant1TextBox";
             this.ex4Operant1TextBox.Size = new System.Drawing.Size(100, 20);
             this.ex4Operant1TextBox.TabIndex = 14;
             // 
             // ex4Operant2TextBox
             // 
-            this.ex4Operant2TextBox.Location = new System.Drawing.Point(117, 471);
+            this.ex4Operant2TextBox.Location = new System.Drawing.Point(123, 400);
             this.ex4Operant2TextBox.Name = "ex4Operant2TextBox";
             this.ex4Operant2TextBox.Size = new System.Drawing.Size(100, 20);
             this.ex4Operant2TextBox.TabIndex = 15;
             // 
             // ex4ResultatTextBox
             // 
-            this.ex4ResultatTextBox.Location = new System.Drawing.Point(418, 451);
+            this.ex4ResultatTextBox.Location = new System.Drawing.Point(424, 380);
             this.ex4ResultatTextBox.Name = "ex4ResultatTextBox";
             this.ex4ResultatTextBox.Size = new System.Drawing.Size(100, 20);
             this.ex4ResultatTextBox.TabIndex = 16;
@@ -218,7 +224,7 @@
             // ex4Label
             // 
             this.ex4Label.AutoSize = true;
-            this.ex4Label.Location = new System.Drawing.Point(253, 391);
+            this.ex4Label.Location = new System.Drawing.Point(259, 320);
             this.ex4Label.Name = "ex4Label";
             this.ex4Label.Size = new System.Drawing.Size(160, 13);
             this.ex4Label.TabIndex = 17;
@@ -226,7 +232,7 @@
             // 
             // ex4SumarButton
             // 
-            this.ex4SumarButton.Location = new System.Drawing.Point(301, 428);
+            this.ex4SumarButton.Location = new System.Drawing.Point(307, 357);
             this.ex4SumarButton.Name = "ex4SumarButton";
             this.ex4SumarButton.Size = new System.Drawing.Size(75, 23);
             this.ex4SumarButton.TabIndex = 18;
@@ -236,7 +242,7 @@
             // 
             // ex4RestarButton
             // 
-            this.ex4RestarButton.Location = new System.Drawing.Point(301, 471);
+            this.ex4RestarButton.Location = new System.Drawing.Point(307, 400);
             this.ex4RestarButton.Name = "ex4RestarButton";
             this.ex4RestarButton.Size = new System.Drawing.Size(75, 23);
             this.ex4RestarButton.TabIndex = 19;
@@ -247,7 +253,7 @@
             // ex4OperacionLabel
             // 
             this.ex4OperacionLabel.AutoSize = true;
-            this.ex4OperacionLabel.Location = new System.Drawing.Point(279, 510);
+            this.ex4OperacionLabel.Location = new System.Drawing.Point(285, 439);
             this.ex4OperacionLabel.Name = "ex4OperacionLabel";
             this.ex4OperacionLabel.Size = new System.Drawing.Size(122, 13);
             this.ex4OperacionLabel.TabIndex = 20;
@@ -255,14 +261,14 @@
             // 
             // ex4OperacionTextBox
             // 
-            this.ex4OperacionTextBox.Location = new System.Drawing.Point(312, 526);
+            this.ex4OperacionTextBox.Location = new System.Drawing.Point(318, 455);
             this.ex4OperacionTextBox.Name = "ex4OperacionTextBox";
             this.ex4OperacionTextBox.Size = new System.Drawing.Size(49, 20);
             this.ex4OperacionTextBox.TabIndex = 21;
             // 
             // ex4ResetButton
             // 
-            this.ex4ResetButton.Location = new System.Drawing.Point(418, 526);
+            this.ex4ResetButton.Location = new System.Drawing.Point(424, 455);
             this.ex4ResetButton.Name = "ex4ResetButton";
             this.ex4ResetButton.Size = new System.Drawing.Size(75, 23);
             this.ex4ResetButton.TabIndex = 22;
@@ -272,7 +278,7 @@
             // 
             // ex4CalcularButton
             // 
-            this.ex4CalcularButton.Location = new System.Drawing.Point(117, 523);
+            this.ex4CalcularButton.Location = new System.Drawing.Point(123, 452);
             this.ex4CalcularButton.Name = "ex4CalcularButton";
             this.ex4CalcularButton.Size = new System.Drawing.Size(134, 23);
             this.ex4CalcularButton.TabIndex = 23;
@@ -282,7 +288,7 @@
             // 
             // ex4bCalcularButton
             // 
-            this.ex4bCalcularButton.Location = new System.Drawing.Point(117, 731);
+            this.ex4bCalcularButton.Location = new System.Drawing.Point(123, 660);
             this.ex4bCalcularButton.Name = "ex4bCalcularButton";
             this.ex4bCalcularButton.Size = new System.Drawing.Size(134, 23);
             this.ex4bCalcularButton.TabIndex = 33;
@@ -292,7 +298,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(418, 734);
+            this.button2.Location = new System.Drawing.Point(424, 663);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 32;
@@ -302,7 +308,7 @@
             // 
             // ex4bOperacionTextBox
             // 
-            this.ex4bOperacionTextBox.Location = new System.Drawing.Point(312, 734);
+            this.ex4bOperacionTextBox.Location = new System.Drawing.Point(318, 663);
             this.ex4bOperacionTextBox.Name = "ex4bOperacionTextBox";
             this.ex4bOperacionTextBox.Size = new System.Drawing.Size(49, 20);
             this.ex4bOperacionTextBox.TabIndex = 31;
@@ -310,7 +316,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(279, 718);
+            this.label3.Location = new System.Drawing.Point(285, 647);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(122, 13);
             this.label3.TabIndex = 30;
@@ -319,7 +325,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(253, 599);
+            this.label4.Location = new System.Drawing.Point(259, 528);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(160, 13);
             this.label4.TabIndex = 27;
@@ -327,21 +333,21 @@
             // 
             // ex4bResultatTextBox
             // 
-            this.ex4bResultatTextBox.Location = new System.Drawing.Point(418, 659);
+            this.ex4bResultatTextBox.Location = new System.Drawing.Point(424, 588);
             this.ex4bResultatTextBox.Name = "ex4bResultatTextBox";
             this.ex4bResultatTextBox.Size = new System.Drawing.Size(100, 20);
             this.ex4bResultatTextBox.TabIndex = 26;
             // 
             // ex4bOperant2TextBox
             // 
-            this.ex4bOperant2TextBox.Location = new System.Drawing.Point(117, 679);
+            this.ex4bOperant2TextBox.Location = new System.Drawing.Point(123, 608);
             this.ex4bOperant2TextBox.Name = "ex4bOperant2TextBox";
             this.ex4bOperant2TextBox.Size = new System.Drawing.Size(100, 20);
             this.ex4bOperant2TextBox.TabIndex = 25;
             // 
             // ex4bOperant1TextBox
             // 
-            this.ex4bOperant1TextBox.Location = new System.Drawing.Point(117, 636);
+            this.ex4bOperant1TextBox.Location = new System.Drawing.Point(123, 565);
             this.ex4bOperant1TextBox.Name = "ex4bOperant1TextBox";
             this.ex4bOperant1TextBox.Size = new System.Drawing.Size(100, 20);
             this.ex4bOperant1TextBox.TabIndex = 24;
@@ -350,7 +356,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(324, 367);
+            this.label5.Location = new System.Drawing.Point(330, 296);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(24, 24);
             this.label5.TabIndex = 34;
@@ -360,7 +366,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(324, 562);
+            this.label6.Location = new System.Drawing.Point(330, 491);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(23, 24);
             this.label6.TabIndex = 35;
@@ -372,17 +378,81 @@
             this.ex4bOperadorListBox.Items.AddRange(new object[] {
             "+",
             "-"});
-            this.ex4bOperadorListBox.Location = new System.Drawing.Point(315, 636);
+            this.ex4bOperadorListBox.Location = new System.Drawing.Point(321, 565);
             this.ex4bOperadorListBox.Name = "ex4bOperadorListBox";
-            this.ex4bOperadorListBox.Size = new System.Drawing.Size(46, 43);
+            this.ex4bOperadorListBox.Size = new System.Drawing.Size(33, 30);
             this.ex4bOperadorListBox.TabIndex = 36;
             this.ex4bOperadorListBox.SelectedIndexChanged += new System.EventHandler(this.ex4bOperadorListBox_SelectedIndexChanged);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(22, 686);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(110, 24);
+            this.label7.TabIndex = 37;
+            this.label7.Text = "Exercice 5";
+            // 
+            // ex5MouseCheckBox
+            // 
+            this.ex5MouseCheckBox.AutoSize = true;
+            this.ex5MouseCheckBox.Location = new System.Drawing.Point(123, 713);
+            this.ex5MouseCheckBox.Name = "ex5MouseCheckBox";
+            this.ex5MouseCheckBox.Size = new System.Drawing.Size(58, 17);
+            this.ex5MouseCheckBox.TabIndex = 38;
+            this.ex5MouseCheckBox.Text = "Mouse";
+            this.ex5MouseCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // ex5CatCheckBox
+            // 
+            this.ex5CatCheckBox.AutoSize = true;
+            this.ex5CatCheckBox.Location = new System.Drawing.Point(123, 736);
+            this.ex5CatCheckBox.Name = "ex5CatCheckBox";
+            this.ex5CatCheckBox.Size = new System.Drawing.Size(42, 17);
+            this.ex5CatCheckBox.TabIndex = 39;
+            this.ex5CatCheckBox.Text = "Cat";
+            this.ex5CatCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // ex5DogCheckBox
+            // 
+            this.ex5DogCheckBox.AutoSize = true;
+            this.ex5DogCheckBox.Location = new System.Drawing.Point(123, 759);
+            this.ex5DogCheckBox.Name = "ex5DogCheckBox";
+            this.ex5DogCheckBox.Size = new System.Drawing.Size(46, 17);
+            this.ex5DogCheckBox.TabIndex = 40;
+            this.ex5DogCheckBox.Text = "Dog";
+            this.ex5DogCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // ex5ListAnimalesTextBox
+            // 
+            this.ex5ListAnimalesTextBox.Location = new System.Drawing.Point(218, 756);
+            this.ex5ListAnimalesTextBox.Name = "ex5ListAnimalesTextBox";
+            this.ex5ListAnimalesTextBox.Size = new System.Drawing.Size(375, 20);
+            this.ex5ListAnimalesTextBox.TabIndex = 41;
+            this.ex5ListAnimalesTextBox.Text = "Choosen Animals: ";
+            // 
+            // ex5OkButton
+            // 
+            this.ex5OkButton.Location = new System.Drawing.Point(359, 727);
+            this.ex5OkButton.Name = "ex5OkButton";
+            this.ex5OkButton.Size = new System.Drawing.Size(75, 23);
+            this.ex5OkButton.TabIndex = 42;
+            this.ex5OkButton.Text = "OK";
+            this.ex5OkButton.UseVisualStyleBackColor = true;
+            this.ex5OkButton.Click += new System.EventHandler(this.ex5OkButton_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(737, 848);
+            this.ClientSize = new System.Drawing.Size(731, 1061);
+            this.Controls.Add(this.ex5OkButton);
+            this.Controls.Add(this.ex5ListAnimalesTextBox);
+            this.Controls.Add(this.ex5DogCheckBox);
+            this.Controls.Add(this.ex5CatCheckBox);
+            this.Controls.Add(this.ex5MouseCheckBox);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.ex4bOperadorListBox);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -462,6 +532,12 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ListBox ex4bOperadorListBox;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.CheckBox ex5MouseCheckBox;
+        private System.Windows.Forms.CheckBox ex5CatCheckBox;
+        private System.Windows.Forms.CheckBox ex5DogCheckBox;
+        private System.Windows.Forms.TextBox ex5ListAnimalesTextBox;
+        private System.Windows.Forms.Button ex5OkButton;
     }
 }
 

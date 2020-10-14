@@ -168,5 +168,26 @@ namespace ExercisesBasic
                                              MessageBoxButtons.OK);
             }
         }
+
+        //Exercice 5
+        //Comprobamos cuales estan activos.
+        private void ex5OkButton_Click(object sender, EventArgs e)
+        {
+            String resultado = "Choosen animals :";
+
+            if (ex5MouseCheckBox.Checked) {
+                resultado = resultado + " " + ex5MouseCheckBox.Text;
+            }
+            if (ex5CatCheckBox.Checked)
+            {
+                resultado = resultado + " " + ex5CatCheckBox.Text;
+            }
+            if (ex5DogCheckBox.Checked)
+            {
+                resultado = resultado + " " + ex5DogCheckBox.Text;
+            }
+
+            ex5ListAnimalesTextBox.Text = resultado;
+        }
     }
 }
