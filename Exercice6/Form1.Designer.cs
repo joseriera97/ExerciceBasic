@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.ex6Button = new System.Windows.Forms.Button();
-            this.ex5ListAnimalesTextBox = new System.Windows.Forms.TextBox();
+            this.ex6TextBox = new System.Windows.Forms.TextBox();
             this.coloresGroupBox = new System.Windows.Forms.GroupBox();
             this.redRadioButton = new System.Windows.Forms.RadioButton();
             this.blueRadioButton = new System.Windows.Forms.RadioButton();
@@ -48,13 +48,13 @@
             this.ex6Button.UseVisualStyleBackColor = true;
             this.ex6Button.Click += new System.EventHandler(this.ex6Button_Click);
             // 
-            // ex5ListAnimalesTextBox
+            // ex6TextBox
             // 
-            this.ex5ListAnimalesTextBox.Location = new System.Drawing.Point(128, 298);
-            this.ex5ListAnimalesTextBox.Name = "ex5ListAnimalesTextBox";
-            this.ex5ListAnimalesTextBox.Size = new System.Drawing.Size(412, 20);
-            this.ex5ListAnimalesTextBox.TabIndex = 48;
-            this.ex5ListAnimalesTextBox.Text = "Choosen Colour: ";
+            this.ex6TextBox.Location = new System.Drawing.Point(128, 298);
+            this.ex6TextBox.Name = "ex6TextBox";
+            this.ex6TextBox.Size = new System.Drawing.Size(412, 20);
+            this.ex6TextBox.TabIndex = 48;
+            this.ex6TextBox.Text = "Choosen Colour: ";
             // 
             // coloresGroupBox
             // 
@@ -118,7 +118,7 @@
             this.ClientSize = new System.Drawing.Size(576, 339);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.coloresGroupBox);
-            this.Controls.Add(this.ex5ListAnimalesTextBox);
+            this.Controls.Add(this.ex6TextBox);
             this.Controls.Add(this.ex6Button);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -132,7 +132,7 @@
         #endregion
 
         private System.Windows.Forms.Button ex6Button;
-        private System.Windows.Forms.TextBox ex5ListAnimalesTextBox;
+        private System.Windows.Forms.TextBox ex6TextBox;
         private System.Windows.Forms.GroupBox coloresGroupBox;
         private System.Windows.Forms.RadioButton whiteRadioButton;
         private System.Windows.Forms.RadioButton blueRadioButton;

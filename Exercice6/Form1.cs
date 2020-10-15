@@ -35,12 +35,12 @@ namespace Exercice6
             if (radioButtonMarcado)
             {
                 // Si hay uno seleccionado.
-                ex5ListAnimalesTextBox.Text = "Choosen Colour: " + active;
+                ex6TextBox.Text = "Choosen Colour: " + active;
 
             }
             else
             {//No hay ningún radio button seleccionado
-                ex5ListAnimalesTextBox.Text = "Choosen Colour: ";
+                ex6TextBox.Text = "Choosen Colour: ";
             }
         }
     }
